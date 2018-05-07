@@ -2,6 +2,7 @@
 
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_rectangle">
@@ -40,6 +41,15 @@
         android:textColor="#ffffff"
         android:textSize="35px"
         android:text="now inhale" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/breathegif" />
 
 
 </RelativeLayout>
