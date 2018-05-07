@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OM</string>
+    <string name="title_chat">chat</string>
+    <string name="title_dashboard">dashboard</string>
+    <string name="title_yourbody">your body</string>
+    <string name="title_breathe">breathe</string>
+    <string name="title_community">community</string>
+</resources>
