@@ -19,6 +19,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="C:\Users\HP\Pictures\Screenshots\Screenshot (39).png" />
+                                      <entry key="outputName" value="chatImg" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -40,7 +42,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputIconType" value="NOTIFICATION" />
+                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>
