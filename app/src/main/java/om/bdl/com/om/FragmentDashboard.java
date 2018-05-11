@@ -6,6 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
 
 public class FragmentDashboard extends Fragment {
 
@@ -16,4 +19,12 @@ public class FragmentDashboard extends Fragment {
         //if it is DashboardFragment it should have R.layout.fragment_dashboard
         return inflater.inflate(R.layout.fragment_dashboard, null);
     }
+
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        ImageView imageView = (ImageView) getView().findViewById(R.id.imageView4);
+        Glide.with(this)
+                .load(R.drawable.heartgif)
+                .into(imageView);
+    }
+
 }
