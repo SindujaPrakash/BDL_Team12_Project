@@ -13,11 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="17dp"
         android:fontFamily="@font/typo_round_bold_demo"
         android:text="Breathe"
         android:textColor="#ffffff"
-        android:textSize="50px" />
+        android:textSize="10pt" />
 
     <TextView
         android:id="@+id/textView2"
@@ -28,7 +28,7 @@
         android:fontFamily="@font/typo_round_bold_demo"
         android:text="relax"
         android:textColor="#ffffff"
-        android:textSize="40px" />
+        android:textSize="8pt" />
 
     <TextView
         android:id="@+id/textView3"
@@ -36,11 +36,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="149dp"
+        android:layout_marginTop="92dp"
         android:fontFamily="@font/typo_round_bold_demo"
+        android:text="now inhale"
         android:textColor="#ffffff"
-        android:textSize="35px"
-        android:text="now inhale" />
+        android:textSize="10pt" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="12dp"
         app:srcCompat="@drawable/breathegif" />
 
 
